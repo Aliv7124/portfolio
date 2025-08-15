@@ -1,5 +1,6 @@
 import React from 'react'
 import CV from '../src/assets/CV.jpeg'
+import CVPDF from '../src/assets/ALIV_ROY_CV.pdf' 
 function About() {
 
   return (
@@ -31,7 +32,10 @@ function About() {
     </div>
     
       <div className="container my-4">
-  <a href="/Aliv_Roy_CV.docx" download className="btn btn-primary">
+        
+ 
+   <a href={CVPDF} download="Aliv_Roy_CV.pdf" className="btn btn-primary">
+   
     Download CV
   </a>
 </div>
