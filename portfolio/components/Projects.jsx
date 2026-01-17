@@ -2,6 +2,28 @@ import React from 'react';
 
 function Projects() {
   const projectList = [
+   
+     {
+      title: "Chat-connect",
+      description: "A real-time chat application that allows users to send and receive messages instantly. Features include user authentication, private chats, and a responsive interface for seamless communication.",
+       github_frontend: "https://github.com/Aliv7124/chat",
+       github_backend:"https://github.com/Aliv7124/chat-b",
+      demo: "https://chat-nln7.vercel.app"
+    },
+    {
+      title: "Lost & Found",
+      description: "A web application that helps users report, search, and claim lost items. Users can post lost or found items with details and images, making it easier to reunite belongings with their owners efficiently.",
+       github_frontend: "https://github.com/Aliv7124/project",
+       github_backend:"https://github.com/Aliv7124/project-backend",
+      demo: "https://project-omega-ruddy.vercel.app/login"
+    },
+    {
+     title: "Optical store website",
+  description: "Optical store full stack website using MERN",
+   github_frontend: "https://github.com/Aliv7124/optic-frontend",
+   github_backend: "https://github.com/Aliv7124/optic-backend",
+  demo: "https://msoptical.vercel.app/"
+},
     {
   title: "Dictionary",
   description: "Dictionary web app using HTML, CSS, and JavaScript.",
